@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real astate</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="shortcut icon" href="images/favicon.png">
+
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+
+    <!----- header ------>
+    <div class="top-bar py-2 px-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-between">
+            <a class="icon-link text-white text-decoration-none" href="#">
+              <i class="fa-solid fa-location-dot"></i>
+              Rezilla, 18 Grattan St, Brooklyn
+            </a>
+            <div class="contect">
+              <a class="icon-link text-white text-decoration-none" href="#">
+                <i class="fa-solid fa-phone"></i>
+                456 56565
+              </a>
+              <a class="icon-link text-white text-decoration-none ms-2"
+                href="#">
+                <i class="fa-regular fa-envelope"></i>
+                support@home.com
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light bg-white  sticked">
+        <div class="container justify-content-between">
+
+          <a href="index.html" class="navbar-brand d-lg-none">
+            <i class="fa-solid fa-house"></i>
+          </a>
+          <button class="navbar-toggler" type="button"
+            data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample" tabindex="-1">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="offcanvas offcanvas-start" data-bs-toggle="offcanvas"
+            id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <a href="index.html" class="navbar-brand d-lg-none">
+                <i class="fa-solid fa-house"></i>
+              </a>
+              <button type="button" class="btn-close"
+                data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item ">
+                  <a class="nav-link active" style="text-decoration: none;"
+                    href="#"> Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="text-decoration: none;" href="#">
+                    About</a>
+                </li>
+                <li class="nav-item"><a class="nav-link"
+                    style="text-decoration: none;" href="#">
+                    Listing</a></li>
+
+                <li class="nav-item"><a class="nav-link"
+                    style="text-decoration: none;" href="#">
+                    Service</a>
+                </li>
+                <li class="nav-item"><a class="nav-link"
+                    style="text-decoration: none;" href="#">
+                    Blog</a>
+                </li>
+              </ul>
+
+              <a href="index.html"
+                class="navbar-brand d-none d-lg-block me-auto">
+                <i class="fa-solid fa-house fs-2"></i>
+              </a>
+
+              <a class="icon-link text-dark text-decoration-none me-3" href="#">
+                <i class="fa-regular fa-circle-user"></i>
+                Login/Register
+              </a>
+              <a class="nav-btn mb-2 mb-lg-0 ms-2" href="#"><i
+                  class="fa-solid fa-house-circle-check"></i> Add Listing
+                </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="hero-bg">
+      <img src="images/hero-bg.png" class="img-fluid" alt>
+    </div>
+
+    <!----- header ------>
+
+    <!----- hero ------>
+    <div class="hero">
+      <div class="container">
+        <div class="row row-cols-md-2 row-cols-1 mt-5 pt-md-5 gx-5">
+          <div class="col">
+            <p class="sub-title">
+              Real astate
+            </p>
+            <h1 class="my-4">Find a perfect home you love..!</h1>
+            <p class="mb-3 contect">Etiam eget elementum elit. Aenean dignissim
+              dapibus vestibulum. Integer a dolor eu sapien sodales vulputate ac
+              in purus.</p>
+            <div class="position-relative hero-circle">
+              <img src="images/circle.png" class="img-fluid" alt>
+            </div>
+            <div class="hero-slider text-start my-5 owl-carousel owl-theme">
+              <div class="slider1">
+                <img src="images/slider.png" class="img-fluid" alt>
+              </div>
+              <div class="slider2">
+                <img src="images/slider2.jpg" class="img-fluid rounded-4" alt>
+              </div>
+              <div class="slider3">
+                <img src="images/silder3.jpg" class="img-fluid rounded-4" alt>
+              </div>
+            </div>
+          </div>
+          <div class="col pt-md-5">
+            <div class="bg-white rounded-5 py-4 text-center">
+              <ul class="nav nav-underline border-bottom justify-content-center">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab"
+                    data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                    type="button" aria-controls="home-tab-pane"
+                    aria-selected="true">For Sale</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                    data-bs-target="#profile-tab-pane" type="button"
+                    aria-controls="profile-tab-pane" aria-selected="false">For
+                    Rent</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane"
+                  role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                  <form action class="m-4">
+                    <div class="container">
+                      <div class="row justify-content-center">
+                        <div class="col-10">
+                          <input type="text"
+                            class="form-control p-3 bg-light rounded-5 border-0 fs-6 mb-4"
+                            placeholder="New York, San Francisco, etc">
+                          <select
+                            class="form-select p-3 bg-light rounded-5 border-0 fs-6 mb-4"
+                            aria-label="Default select example">
+                            <option selected>Select property type</option>
+                            <option value="1">Bungalow</option>
+                            <option value="2">Apartment</option>
+                            <option value="3">Villas</option>
+                            <option value="4">Land</option>
+                          </select>
+                          <select
+                            class="form-select p-3 bg-light rounded-5 border-0 fs-6"
+                            aria-label="Default select example">
+                            <option selected>Select Room</option>
+                            <option value="1">Deluxe room</option>
+                            <option value="2">Standard room</option>
+                            <option value="3">Connecting rooms</option>
+                          </select>
+                          <div class="mt-5">
+                            <a class="nav-btn rounded-5 px-5" href="#"><i
+                                class="fa-solid fa-magnifying-glass me-1"></i>
+                              Search</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel"
+                  aria-labelledby="profile-tab" tabindex="0">
+                  <form action class="m-4">
+                    <div class="container">
+                      <div class="row justify-content-center">
+                        <div class="col-10">
+                          <input type="text"
+                            class="form-control p-3 bg-light rounded-5 border-0 fs-6 mb-4"
+                            placeholder="New York, San Francisco, etc">
+                          <select
+                            class="form-select p-3 bg-light rounded-5 border-0 fs-6 mb-4"
+                            aria-label="Default select example">
+                            <option selected>Select property type</option>
+                            <option value="1">Bungalow</option>
+                            <option value="2">Apartment</option>
+                            <option value="3">Villas</option>
+                            <option value="4">Land</option>
+                          </select>
+                          <div class="mt-5">
+                            <a class="nav-btn rounded-5 px-5" href="#"><i
+                                class="fa-solid fa-magnifying-glass me-1"></i>
+                              Search</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2 mb-md-5 mb-3 justify-content-center mx-auto">
+          <div class="col-md-3 mb-3 mb-md-0">
+            <div class="card-body shadow-lg rounded-5 p-3">
+              <div class="d-flex justify-content-center">
+                <i class="fa-solid fa-star me-3 primary-color"></i>
+                <h3 class="m-0">Happy customers</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card-body shadow-lg rounded-5 p-3">
+              <div class="d-flex justify-content-center">
+                <i class="fa-solid fa-list-ol me-3 primary-color"></i>
+                <h3 class="m-0">New Listing Everyday!</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----- hero ------>
+
+    <!----- customer ------>
+
+    <div class="customer-circle">
+      <img src="images/circle.png" class="img-fluid" alt>
+    </div>
+    <div class="customer mb-5">
+      <div class="container">
+        <div class="row text-center mt-1 mb-3">
+          <div class="col">
+            <p class="contect">Trusted by 100+ Companies across the globe! </p>
+          </div>
+        </div>
+        <div class="row mb-5 justify-content-center gx-5">
+          <div class="col-auto mb-3 mb-md-0">
+            <img src="images/cus-1.png" class="img-fluid" alt>
+          </div>
+          <div class="col-auto mb-3 mb-md-0">
+            <img src="images/cus-2.png" class="img-fluid" alt>
+          </div>
+          <div class="col-auto mb-3 mb-md-0">
+            <img src="images/cus-3.png" class="img-fluid" alt>
+          </div>
+          <div class="col-auto mb-3 mb-md-0">
+            <img src="images/cus-4.png" class="img-fluid" alt>
+          </div>
+          <div class="col-auto mb-3 mb-md-0">
+            <img src="images/cus-5.png" class="img-fluid" alt>
+          </div>
+          <div class="col-auto mb-3 mb-md-0">
+            <img src="images/cus-6.png" class="img-fluid" alt>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----- customer ------>
+
+    <!----- who-we-are ------>
+    <div class="who-we-are">
+      <div class="container">
+        <div class="row row-cols-md-2 row-cols-1 my-5">
+          <div class="col  mt-md-5">
+            <p class="sub-title my-2">
+              Who we are
+            </p>
+            <h2 class="mb-3">Assisting individuals locating real estate.</h2>
+            <p class="mb-4">Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec
+              dignissim purus. Nulla convallis ipsum molestie nibh malesuada, ac
+              malesuada leo volutpat.</p>
+              <div class="col-md-10">
+                <div class="card-body shadow rounded-5 py-4 px-2 mb-4">
+                  <div class="d-flex justify-content-center">
+                    <i class="fa-solid fa-house  my-auto me-sm-3 me-2 primary-color"></i>
+                    <div>
+                      <h3 class="sub-title-size blue-color">Donec porttitor euismod</h3>
+                      <p class="m-0">Nullam a lacinia ipsum, nec dignissim purus. Nulla</p>
+                    </div>     
+                  </div>
+                </div>
+                <div class="card-body shadow rounded-5 px-2  py-4">
+                  <div class="d-flex justify-content-center">
+                    <i class="fa-regular fa-circle-user fs-3 my-auto me-sm-3 me-2 primary-color"></i>
+                    <div>
+                      <h3 class="sub-title-size blue-color">Donec porttitor euismod</h3>
+                      <p>Nullam a lacinia ipsum, nec dignissim purus. Nulla</p>
+                    </div>     
+                  </div>
+                </div>
+              </div>
+           
+          </div>
+          <div class="col mt-md-5  pt-5">
+            <div class="row">
+              <div class="col p-md-0">
+                <img src="images/Rectangle 14.png" class="img-fluid rounded-5" alt="">
+                
+              </div>
+              <div class="col p-md-0 who-we-imgs">
+                <img src="images/Rectangle 15.png" class="img-fluid rounded-5" alt="">
+                <img src="images/Rectangle 16.png" class="img-fluid rounded-5" alt="">
+                <div class="customer-circle wwa-circle">
+                  <img src="images/circle.png" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----- who-we-are ------>
+
+
+    <!----- our-new ------>
+
+    <div class="our-new">
+      <div class="container">
+        <div class="row row-cols-md-2 row-cols-1 my-5">
+          <div class="col">
+            <p class="sub-title my-2">
+              CHECKOUT OUR NEW
+            </p>
+            <h2 class="mb-3">Latest Listed Properties</h2>
+            <p class="mb-4">Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec
+              dignissim purus. Nulla convallis ipsum molestie nibh malesuada, ac
+              malesuada leo volutpat.</p>
+          </div>
+          <div class="col my-auto">
+            <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">All</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-sell-tab" data-bs-toggle="pill" data-bs-target="#pills-sell" type="button" role="tab" aria-controls="pills-sell" aria-selected="false">Sell</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-rent-tab" data-bs-toggle="pill" data-bs-target="#pills-rent" type="button" role="tab" aria-controls="pills-rent" aria-selected="false">Rent</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab" tabindex="0">
+              <div class="row row-cols-md-4">
+                <div class="tab-slider owl-carousel owl-theme">
+                <div class="col">
+                  <div class="card">
+                    <div class="text-block">
+                      <img src="images/new1.png" class="img-fluid" alt="">
+                      <div class="text-block-inner">
+                        <div class="d-flex">
+                          <i class="fa-solid fa-fire me-2 my-auto"></i>
+                          <p>Popular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                        <h4>$5,769</h4>
+                        <p class="subtitle">Tranquil Haven in the Woods</p>
+                        <p>103 Wright CourtBurien, WA 98168</p>
+                        <div class="d-flex">
+                          <div class="d-flex my-auto me-5">
+                            <i class="fa-solid fa-bed me-2"></i>
+                            <p>4 Beds</p>
+                          </div>
+                          <div class="d-flex">
+                            <i class="fa-solid fa-bath me-2"></i>
+                            <p>3 Baths</p>
+                          </div>
+                        </div>  
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="text-block">
+                      <img src="images/new2.png" class="img-fluid" alt="">
+                      <div class="text-block-inner blue-badge">
+                        <div class="d-flex">
+                          <i class="fa-solid fa-house-chimney me-2 my-auto"></i>
+                          <p>New</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                        <h4>$8,889</h4>
+                        <p class="subtitle">Serene Retreat by the Lake</p>
+                        <p>1964 Jehovah Drive, VA 22408</p>
+                        <div class="d-flex">
+                          <div class="d-flex my-auto me-5">
+                            <i class="fa-solid fa-bed me-2"></i>
+                            <p>4 Beds</p>
+                          </div>
+                          <div class="d-flex">
+                            <i class="fa-solid fa-bath me-2"></i>
+                            <p>3 Baths</p>
+                          </div>
+                        </div>  
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="text-block">
+                      <img src="images/new3.png" class="img-fluid" alt="">
+                      <div class="text-block-inner green-badge">
+                        <div class="d-flex">
+                          <i class="fa-solid fa-dollar-sign me-2 my-auto"></i>
+                          <p>Discount Price</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                        <h4>$3,119</h4>
+                        <p class="subtitle">Tranquil Haven in the Woods</p>
+                        <p>103 Wright CourtBurien, WA 98168</p>
+                        <div class="d-flex">
+                          <div class="d-flex my-auto me-5">
+                            <i class="fa-solid fa-bed me-2"></i>
+                            <p>4 Beds</p>
+                          </div>
+                          <div class="d-flex">
+                            <i class="fa-solid fa-bath me-2"></i>
+                            <p>3 Baths</p>
+                          </div>
+                        </div>  
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="text-block">
+                      <img src="images/new4.png" class="img-fluid" alt="">
+                      <div class="text-block-inner yellow-badge">
+                        <div class="d-flex">
+                          <i class="fa-regular fa-gem me-2 my-auto"></i>
+                          <p>Luxury</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                        <h4>$13,769</h4>
+                        <p class="subtitle">Grand Estate on the Hilltop</p>
+                        <p>103 Wright CourtBurien, WA 98168</p>
+                        <div class="d-flex">
+                          <div class="d-flex my-auto me-5">
+                            <i class="fa-solid fa-bed me-2"></i>
+                            <p>4 Beds</p>
+                          </div>
+                          <div class="d-flex">
+                            <i class="fa-solid fa-bath me-2"></i>
+                            <p>3 Baths</p>
+                          </div>
+                        </div>  
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-sell" role="tabpanel" aria-labelledby="pills-sell-tab" tabindex="0">
+              <div class="row row-cols-md-4">
+                <div class="col">
+                  <div class="card">
+                    <div class="text-block">
+                      <img src="images/new1.png" class="img-fluid" alt="">
+                      <div class="text-block-inner">
+                        <div class="d-flex">
+                          <i class="fa-solid fa-fire me-2 my-auto"></i>
+                          <p>Popular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                        <h4>$5,769</h4>
+                        <p class="subtitle">Tranquil Haven in the Woods</p>
+                        <p>103 Wright CourtBurien, WA 98168</p>
+                        <div class="d-flex">
+                          <div class="d-flex my-auto me-5">
+                            <i class="fa-solid fa-bed me-2"></i>
+                            <p>4 Beds</p>
+                          </div>
+                          <div class="d-flex">
+                            <i class="fa-solid fa-bath me-2"></i>
+                            <p>3 Baths</p>
+                          </div>
+                        </div>  
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="text-block">
+                      <img src="images/new2.png" class="img-fluid" alt="">
+                      <div class="text-block-inner blue-badge">
+                        <div class="d-flex">
+                          <i class="fa-solid fa-house-chimney me-2 my-auto"></i>
+                          <p>New</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h4>$8,889</h4>
+                      <p class="subtitle">Serene Retreat by the Lake</p>
+                        <p>103 Wright CourtBurien, WA 98168</p>
+                        <div class="d-flex">
+                          <div class="d-flex my-auto me-5">
+                            <i class="fa-solid fa-bed me-2"></i>
+                            <p>4 Beds</p>
+                          </div>
+                          <div class="d-flex">
+                            <i class="fa-solid fa-bath me-2"></i>
+                            <p>3 Baths</p>
+                          </div>
+                        </div>  
+                    </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-rent" role="tabpanel" aria-labelledby="pills-rent-tab" tabindex="0">
+              <div class="row row-cols-md-4">
+                <div class="col">
+                  <div class="card">
+                    <div class="text-block">
+                      <img src="images/new1.png" class="img-fluid" alt="">
+                      <div class="text-block-inner">
+                        <div class="d-flex">
+                          <i class="fa-solid fa-fire me-2 my-auto"></i>
+                          <p>Popular</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                        <h4>$5,769</h4>
+                        <p class="subtitle">Tranquil Haven in the Woods</p>
+                        <p>103 Wright CourtBurien, WA 98168</p>
+                        <div class="d-flex">
+                          <div class="d-flex my-auto me-5">
+                            <i class="fa-solid fa-bed me-2"></i>
+                            <p>4 Beds</p>
+                          </div>
+                          <div class="d-flex">
+                            <i class="fa-solid fa-bath me-2"></i>
+                            <p>3 Baths</p>
+                          </div>
+                        </div>  
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="text-block">
+                      <img src="images/new2.png" class="img-fluid" alt="">
+                      <div class="text-block-inner blue-badge">
+                        <div class="d-flex">
+                          <i class="fa-solid fa-house-chimney me-2 my-auto"></i>
+                          <p>New</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                        <h4>$5,769</h4>
+                        <p class="subtitle">Tranquil Haven in the Woods</p>
+                        <p>103 Wright CourtBurien, WA 98168</p>
+                        <div class="d-flex">
+                          <div class="d-flex my-auto me-5">
+                            <i class="fa-solid fa-bed me-2"></i>
+                            <p>4 Beds</p>
+                          </div>
+                          <div class="d-flex">
+                            <i class="fa-solid fa-bath me-2"></i>
+                            <p>3 Baths</p>
+                          </div>
+                        </div>  
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="text-block">
+                      <img src="images/new4.png" class="img-fluid" alt="">
+                      <div class="text-block-inner yellow-badge">
+                        <div class="d-flex">
+                          <i class="fa-regular fa-gem me-2 my-auto"></i>
+                          <p>Luxury</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                        <h4>$5,769</h4>
+                        <p class="subtitle">Tranquil Haven in the Woods</p>
+                        <p>103 Wright CourtBurien, WA 98168</p>
+                        <div class="d-flex">
+                          <div class="d-flex my-auto me-5">
+                            <i class="fa-solid fa-bed me-2"></i>
+                            <p>4 Beds</p>
+                          </div>
+                          <div class="d-flex">
+                            <i class="fa-solid fa-bath me-2"></i>
+                            <p>3 Baths</p>
+                          </div>
+                        </div>  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----- our-new ------>
+
+
+    <!----- our-service ------>
+    <div class="our-service">
+      <div class="container my-5">
+        <div class="row text-center">
+          <p class="sub-title my-2">
+            OUR SERVICES
+          </p>
+          <h2 class="mb-3">Donec porttitor euismod dignissim</h2>
+        </div>
+          <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 mt-4 g-3 justify-content-center">
+            <div class="col">
+              <div class="card">
+                <div class="badge-service">
+                  <i class="fa-solid fa-house-chimney"></i>
+                </div>
+                <p class="sub-title">
+                  Sell a House
+                </p>
+                <p>Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus. </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="badge-service">
+                  <i class="fa-solid fa-bed"></i>
+                </div>
+                <p class="sub-title">
+                  Rent a House
+                </p>
+                <p>Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus. </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="badge-service">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <p class="sub-title">
+                  Buy a new Home 
+                </p>
+                <p>Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+    </div>
+    <!----- our-service ------>
+    <div class="customer-circle after-service text-end">
+      <img src="images/circle.png" class="img-fluid" alt="">
+    </div>
+
+    <!----- neighborhood ------>
+    <div class="neighborhood">
+      <div class="container">
+        <div class="row my-5">
+          <p class="sub-title my-2">
+            AREAS ACROSS THE TOWN
+          </p>
+          <h2 class="mb-3">Neighborhood Properties</h2>
+        </div>
+          <div class="row row-cols-md-2 row-cols-lg-3 row-cols-1 neighborhood-img g-3">
+            <div class="col">
+              <div class="text-img">
+                <img src="images/nei-4.png" class="img-fluid" alt="">
+                <div class="nei-text">
+                  <p class="num">
+                    183
+                  </p>
+                  <p class="city">
+                    Philadelphia, PA
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col text-lg-center">
+              <div class="text-img">
+              <img src="images/nei-2.png" class="img-fluid" alt="">
+              <div class="nei-text">
+                <p class="num">
+                  141
+                </p>
+                <p class="city">
+                  Houston, TX
+                </p>
+              </div>
+            </div>
+            </div>
+            <div class="col">
+              <div class="text-img">
+              <img src="images/nei-3.png" class="img-fluid"  alt="">
+              <div class="nei-text">
+                <p class="num">
+                  212
+                </p>
+                <p class="city">
+                  San Diego, CA
+                </p>
+              </div>
+            </div>
+            </div>
+            <div class="col">
+              <div class="text-img">
+              <img src="images/nei-3.png" class="img-fluid"  alt="">
+              <div class="nei-text">
+                <p class="num">
+                  212
+                </p>
+                <p class="city">
+                  San Diego, CA
+                </p>
+              </div>
+            </div>
+            </div>  
+            <div class="col text-lg-center">
+              <div class="text-img">
+              <img src="images/nei-1.png" class="nei-3img" alt="">
+              <div class="nei-text">
+                <p class="num">
+                  216
+                </p>
+                <p class="city">
+                  New York City, NY
+                </p>
+              </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="text-img">
+                <img src="images/nei-4.png" class="img-fluid" alt="">
+                <div class="nei-text">
+                  <p class="num">
+                    183
+                  </p>
+                  <p class="city">
+                    Philadelphia, PA
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!----- neighborhood ------>
+
+
+    <!----- our-team ------>
+    <div class="our-team">
+      <div class="container">
+        <div class="row my-5 text-center">
+          <p class="sub-title my-2">
+            Introduce yourself to
+          </p>
+          <h2 class="mb-3">Our Team of Experts</h2>
+        </div>
+        <div class="row row-cols-lg-4 row-cols-sm-2 row-cols-md-2 row-cols-1 text-center">
+          <div class="col">
+              <img src="images/mem1.png" class="img-fluid" alt="">
+              <div class="mt-3">
+                <h3 class="title">Brendon M</h3>
+                <p class="sub-title">CEO & Founder</p>
+              </div>
+          </div>
+          <div class="col">
+              <img src="images/mem2.png" class="img-fluid" alt="">
+              <div class="mt-3">
+                <h3 class="title">Jodi J. Appleby</h3>
+                <p class="sub-title">Real Estate Developer</p>
+              </div>
+          </div>
+          <div class="col">
+              <img src="images/mem3.png" class="img-fluid" alt="">
+              <div class="mt-3">
+                <h3 class="title">Justin S. Meza</h3>
+                <p class="sub-title">Listing Agent</p>
+              </div>
+          </div>
+          <div class="col">
+              <img src="images/mem4.png" class="img-fluid" alt="">
+              <div class="mt-3">
+                <h3 class="title">Susan T. Smith</h3>
+                <p class="sub-title">Buyer's Agent</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----- our-team ------>
+
+
+    <!----- blog-tranding ------>
+    <div class="blog-tranding my-5">
+      <div class="container">
+        <div class="row  text-center">
+          <p class="sub-title my-2 text-white">
+            WHAT’S TRENDING
+          </p>
+          <h2 class="mb-3">Latest Blogs & Posts</h2>
+        </div>
+        <div class="row row-cols-md-3 row-cols-1 blogs g-lg-5 my-3">
+          <div class="col">
+            <div class="card">
+                <img src="images/blog1.png" class="img-fluid" alt="">
+                <span class="button title-category">28 <span>Jan</span></span>
+              <div class="card-body">
+                <h3 class="title">Top 10 Home Buying Mistakes to Avoid</h3>
+                <p>Etiam eget elementum elit. Aenean dignissim dapibus vestibulum</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+                <img src="images/blog2.png" class="img-fluid" alt="">
+                <span class="button title-category">1 <span>Feb</span></span>
+              <div class="card-body">
+                <h3 class="title">How to Stage Your Home for a Quick Sale</h3>
+                <p>Etiam eget elementum elit. Aenean dignissim dapibus vestibulum</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+                <img src="images/blog3.png" class="img-fluid" alt="">
+                <span class="button title-category">16 <span>March</span></span>
+              <div class="card-body">
+                <h3 class="title">5 Tips for First-Time Home Sellers</h3>
+                <p>Etiam eget elementum elit. Aenean dignissim dapibus vestibulum</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----- blog-tranding ------>
+
+
+    <!----- testimonial ------>
+
+
+    <div class="testimonial">
+      <div class="container">
+        <div class="row row-cols-md-2 row-cols-1 my-5">
+          <div class="col">
+            <p class="sub-title my-2">
+              TESTIMONIALS
+            </p>
+            <h2 class="mb-3">Look What Our Customers Say!</h2>
+            <p class="mb-5">Fusce venenatis tellus a felis scelerisque, non pulvinar est pellentesque. </p>
+            <div id="custom-nav"></div>
+          </div>
+          <div class="col my-auto">
+            <div class="testimonial-slider text-start my-5 owl-carousel owl-theme">
+              <div class="slider1">
+                <div class="card">
+                  <div class="card-body">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>
+                      I highly recommend Jodi J. Appleby. She was attentive to our needs and worked tirelessly to find us the perfect home. We couldn't be happier with our new place!
+                    </p>
+                  </div>
+                  <div class="card-footer pt-3">
+                    <div class="row justify-content-between align-items-center">
+                      <div class="col-6">
+                        <div class="d-flex align-items-center">
+                          <img src="images/test.png" class="me-1 w-25" alt="">
+                          <p class="title">Barbara D. Smith</p>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <img src="images/rating.png" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider2">
+                <div class="card">
+                  <div class="card-body">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>
+                      I highly recommend Jodi J. Appleby. We couldn't be happier with our new place!
+                    </p>
+                  </div>
+                  <div class="card-footer pt-3">
+                    <div class="row justify-content-between align-items-center">
+                      <div class="col-6">
+                        <div class="d-flex align-items-center">
+                          <img src="images/test.png" class="me-1 w-25" alt="">
+                          <p class="title">Barbara D. Smith</p>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <img src="images/rating.png" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider3">
+                <div class="card">
+                  <div class="card-body">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>
+                      We couldn't be happier with our new place!
+                    </p>
+                  </div>
+                  <div class="card-footer pt-3">
+                    <div class="row justify-content-between align-items-center">
+                      <div class="col-6">
+                        <div class="d-flex align-items-center">
+                          <img src="images/test.png" class="me-1 w-25" alt="">
+                          <p class="title">Barbara D. Smith</p>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <img src="images/rating.png" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+          
+  
+    <!----- testimonial ------>
+
+
+    <!----- footer ------>
+    <footer>
+      <div class="container">
+        <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1 justify-content-between align-items-top py-5">
+          <div class="col">
+            <a href="index.html" class="navbar-brand">
+              <i class="fa-solid fa-house fs-2"></i>
+            </a>
+              <p class=" mt-3">2728 Hickory StreetSalt 
+                Lake City, UT 84104</p>
+                <div class="d-flex">
+                  <i class="fa-solid fa-phone me-2"></i>
+                  <p>+1 206-214-2298</p>
+                </div>
+                <div class="d-flex ">
+                  <i class="fa-solid fa-envelope  me-2"></i>
+                  <p>support@rezilla.com</p>
+                </div>
+          </div>
+          <div class="col">
+              <h3 class="title">Quick Links</h3>
+              <ul class="list-unstyled">
+                <li>Home</li>
+                <li>About</li>
+                <li>Listings</li>
+                <li>Services</li>
+                <li>Blogs</li>
+                <li>Become a Agent</li>
+              </ul>
+          </div>
+          <div class="col">
+              <h3 class="title">Discovery</h3>
+              <ul class="list-unstyled">
+                <li>Canada</li>
+                <li>United States</li>
+                <li>Germany</li>
+                <li>Africa</li>
+                <li>India</li>
+              </ul>
+          </div>
+          <div class="col email">
+              <h3 class="title">Subscribe to our Newsletter!</h3>
+              <div class="input-group mt-3">
+                <input type="email" class="form-control" placeholder="Email Address" aria-describedby="basic-addon1">
+                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-angle-right"></i></span>
+              </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!----- footer ------>
+    
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+
+
+</script>
+
+    <script>
+        $(document).ready(function () {
+        $('.hero-slider').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:true,
+    autoplay:true,
+    autoplayTimeout:3000,
+    animateOut: 'fadeOut',
+    navText: ['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+        $('.tab-slider').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    autoplay:false,
+    autoplayTimeout:3000,
+    animateOut: 'fadeOut',
+    responsive:{
+        0:{
+            items:1
+        },
+        450:{
+            items:2
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3.5
+        }
+    }
+});
+
+ 
+       
+$('.testimonial-slider').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:false,
+    autoplay:false,
+    autoplayTimeout:3000,
+    animateOut: 'fadeOut',
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+
+});
+
+  var owl = $(".testimonial-slider").owlCarousel({
+    nav:true,
+    dots:false,
+    autoplay:false,
+    autoplayTimeout:3000,
+    animateOut: 'fadeOut',
+    loop: true,
+    margin: 10,
+    navText: ['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],
+    items: 1
+  });
+
+  // Move .owl-nav to a different column
+  $(".owl-nav").appendTo("#custom-nav");
+
+
+  
+      </script>
+  </body>
+</html>
